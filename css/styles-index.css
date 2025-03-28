@@ -4,22 +4,22 @@
     box-sizing: border-box;
 }
 
+
 /* generics */
 body {          
-    font-family: sans-serif; 
+    font-family: "Fredoka", sans-serif;
 }
 
 main {
     padding: 0 10px;
 }
 
+
 /* utils */
 .container {             
     max-width: 1200px;
     margin: 0 auto;
 }
-
-
 
 .flex {
     display: flex;
@@ -89,17 +89,19 @@ figure div {
     width: 40%;
 }
 
-a {
+address a {
     color: #3cb4e7;
     text-decoration: none;
 }
 
+/* lista puntata */
 ul {
     padding-inline-start: 0;
     list-style-position: inside;
 }
 
 
+/* table */
 table {
     border-collapse: collapse;
 }
@@ -114,9 +116,14 @@ th {
     color: white;
 }
 
+th, td {
+    padding: 5px;
+}
+
 tr.even {
     background-color: white;
 }
+
 
 /* footer */
 footer {
