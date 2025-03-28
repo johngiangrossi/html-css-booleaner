@@ -5,22 +5,30 @@
 }
 
 /* generics */
-
-body {          /*se servono lascio se no tolgo*/
+body {          
     font-family: sans-serif;  
 }
 
 /* utils */
-
-.container {             /*se servono lascio se no tolgo*/  
-    max-width: 1200px;
+.container {             
+    max-width: 1500px;
     margin: 0 auto;
 }
 
-.flex {          /*se servono lascio se no tolgo*/
-    display: flex ;
+.flex {
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
 
-.border {   /*se servono lascio se no tolgo*/
-    border: 2px dashed black;
+/* header */
+header {
+    background-color: #78a9e2;
+    height: 100px;
+    background-image: url(../asset/img/pattern.png);
+    background-size: 25%;
+}
+
+#logo {
+    height: 50px;
 }
