@@ -29,6 +29,10 @@ body {
     font-size: 0.8rem;
 }
 
+.width-50 {
+    width: 50%;
+}
+
 /* header */
 header {
     background-color: #78a9e2;
@@ -59,4 +63,23 @@ a {
 ul {
     padding-inline-start: 0;
     list-style-position: inside;
+}
+
+
+table {
+    border-collapse: collapse;
+}
+
+tr {
+    background-color: #b1e5f2;
+}
+
+th {
+    text-align: left;
+    background-color: #20a9e5;
+    color: white;
+}
+
+tr.even {
+    background-color: white;
 }
