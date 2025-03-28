@@ -21,6 +21,14 @@ body {
     height: 100%;
 }
 
+.text-grey {
+    color: grey;
+}
+
+.text-small {
+    font-size: 0.8rem;
+}
+
 /* header */
 header {
     background-color: #78a9e2;
@@ -31,4 +39,24 @@ header {
 
 #logo {
     height: 50px;
+}
+
+/* main */
+h1 {
+    font-size: 2rem;
+}
+
+#address-article {
+    font-style: normal;
+    font-size: 1.1rem;
+}
+
+a {
+    color: #3cb4e7;
+    text-decoration: none;
+}
+
+ul {
+    padding-inline-start: 0;
+    list-style-position: inside;
 }
