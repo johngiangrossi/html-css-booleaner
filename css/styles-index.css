@@ -1,0 +1,26 @@
+/* css reset */
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* generics */
+
+body {          /*se servono lascio se no tolgo*/
+    font-family: sans-serif;  
+}
+
+/* utils */
+
+.container {             /*se servono lascio se no tolgo*/  
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex {          /*se servono lascio se no tolgo*/
+    display: flex ;
+}
+
+.border {   /*se servono lascio se no tolgo*/
+    border: 2px dashed black;
+}
